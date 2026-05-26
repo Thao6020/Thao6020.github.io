@@ -97,6 +97,13 @@ body {
 
 }
 
+.icon-sprite {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
 #zyyo-loading {
     background: radial-gradient(white, #d8eaff);
     background-size: 100%;
@@ -751,6 +758,91 @@ footer {
     width: auto;
 }
 
+.contact-icon {
+    width: 22px;
+    height: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--text_bg_color);
+    color: var(--purple_text_color);
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.contact-icon::before {
+    display: block;
+}
+
+.contact-icon svg {
+    width: 14px;
+    height: 14px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.contact-icon svg * {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.contact-icon svg * {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.contact-icon svg {
+    width: 14px;
+    height: 14px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.id-icon::before {
+    content: "TH";
+}
+
+.qq-icon::before {
+    content: "Q";
+}
+
+.wechat-icon::before {
+    content: "W";
+}
+
+.telegram-icon::before {
+    content: ">";
+    transform: translateX(-1px);
+}
+
+.mail-icon::before {
+    content: "@";
+}
+
+.left-des-item .contact-icon {
+    margin-right: 10px;
+}
+
+.contact-action .contact-icon {
+    background: transparent;
+    color: var(--main_text_color);
+}
+
 .contact-section {
     margin-top: -44px;
     padding-bottom: 40px;
@@ -798,6 +890,9 @@ footer {
 }
 
 .contact-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     color: var(--item_left_text_color);
     font-size: 13px;
 }
@@ -1069,6 +1164,55 @@ footer {
     width: auto;
 }
 
+.contact-icon {
+    width: 22px;
+    height: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--text_bg_color);
+    color: var(--purple_text_color);
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.contact-icon::before {
+    display: block;
+}
+
+.id-icon::before {
+    content: "TH";
+}
+
+.qq-icon::before {
+    content: "Q";
+}
+
+.wechat-icon::before {
+    content: "W";
+}
+
+.telegram-icon::before {
+    content: ">";
+    transform: translateX(-1px);
+}
+
+.mail-icon::before {
+    content: "@";
+}
+
+.left-des-item .contact-icon {
+    margin-right: 10px;
+}
+
+.contact-action .contact-icon {
+    background: transparent;
+    color: var(--main_text_color);
+}
+
 .contact-section {
     margin-top: -44px;
     padding-bottom: 40px;
@@ -1116,6 +1260,9 @@ footer {
 }
 
 .contact-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     color: var(--item_left_text_color);
     font-size: 13px;
 }
